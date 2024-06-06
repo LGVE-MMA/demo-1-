@@ -14,6 +14,120 @@
   flex-wrap: wrap;
   margin: 10px;
 }
+ #aboutUs{ 
+    background-image: url(https://live.staticflickr.com/620/21200032406_a9f5a7f198_b.jpg);
+    background-repeat:  no repeat;   
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+  }
+  P, h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+.footoo:hover{
+  -webkit-box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  transform: scale(1.15);
+}
+.footoo1:hover{
+  -webkit-box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  transform: scale(1.15);
+}
+.footoo2:hover{
+  -webkit-box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  transform: scale(1.15);
+}
+.footoo3:hover{
+  -webkit-box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 191px 4px rgba(0,0,0,0.75);
+  transform: scale(1.15);
+}
+   .frontview{
+     width: 98%; 
+     background-color: #ffffff;
+     z-index: 100%;
+     margin: 10px;
+     border: 2px solid #ffffff;
+     border-radius: 5px;
+    }
+    .title{
+      font-size: 50px;
+      color: #313131 ;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .texte{
+     width: 98%; 
+     background-color: #ffffff;
+     z-index: 100%;
+     margin: 10px;
+     border: 2px solid #ffffff;
+     border-radius: 5px;
+    }
+
+    .quienesomos1{
+      font-size: 40px ;
+      color: #000;
+
+    }
+    .quienesomos{
+      font-size: 20px ;
+      color: #000;
+     }   
+     .unidoss{
+      width: 100%;
+      height: 20%;
+      background-repeat: no-repeat;
+   }
+   .bannerunidoss1{
+     font-size: 45px;
+     color: #ffffff;
+     z-index: 100%;
+     position: absolute; 
+     top: 270px; 
+     left: 7%;
+
+   }
+   .bannerunidoss{
+     font-size: 40px;
+     color: #ffffff;
+     z-index: 100%;
+     position: absolute; 
+     top: 760px; 
+     left: 7%;
+
+   }
+   .bannerr{
+       font-size: 35px; 
+       color: #ffffff;
+       z-index: 100%   ;
+       position: absolute; top: 400px; left: 7%;
+
+   } 
+    @media(width <= 1199px){
+     .bannerr{
+       display: flex;
+       font-size: 20px;
+       top: 320px;
+     }
+     .bannerunidoss{
+       display: flex;
+       font-size: 22px;
+       top: 520px;
+     }
+     .bannerunidoss1{
+        display: flex;
+        font-size: 22px;
+        top: none;
+     } 
+   }
   .footoo{
       background-image: url(https://4.bp.blogspot.com/-aTO6McxCjNg/Tm0L0zxGA0I/AAAAAAAAAHI/wn1kpBr44cg/ELCONSTRUCTOR-Focos%252520H4%252520Tipo%252520Xenon%252520Autos%252520Y%252520Camionetas.jpg);
       border: 1px solid #acdddd;
@@ -1087,9 +1201,13 @@ ul{
     width: 25%;
     padding: 0 15px;
   }
+  .copyright a{
+    width: 25;
+    padding: 0 15px;
+  }
 }
 .carrito-civic {
-  width:200px;
+  width:220px;
   height: 120px;
   background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/civic%201.jpg?raw=true);
   background-size:cover;
@@ -1111,7 +1229,7 @@ ul{
   }
 }
 .carrito-hilux {
-  width:200px;
+  width:220px;
   height: 100px;
   background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%201.jpg?raw=true);
   background-size:cover;
@@ -1132,30 +1250,30 @@ ul{
       background-image: url(img/hilux\ 2.jpg);
   }
 }
-.carrito-forester {
-  width:150px;
+.carrito-yaris {
+  width:220px;
   height: 130px;
-  background-image:url(img/subaro\ 1.jpg);
+  background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%201.jpg?raw=true);
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  animation-name: forester;
+  animation-name: yaris;
   animation-duration:10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-delay:15s;
   border-radius: 5px;
 } 
-@keyframes forester {
+@keyframes yaris {
   from {
-    background-image:url(img/subaro\ 1.jpg);
+    background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%201.jpg?raw=true);
   }
   to {
-      background-image: url(img/subaro\ 2.jpg);
+      background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%202.jpg?raw=true);
   }
 }
 .carrito-SW4{
-  width:200px;
+  width:220px;
   height: 100px;
   background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%201.jpg?raw=true);
   background-size:cover;
@@ -1175,4 +1293,7 @@ ul{
   to {
       background-image: url(img/sw4\ 2.jpg);
   }
+}
+.autosventa{
+  font-size: 50px;
 }
